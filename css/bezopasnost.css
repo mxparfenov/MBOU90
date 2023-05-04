@@ -1,5 +1,5 @@
 .bezopasnost {
-    flex: 1 0 70%;
+    flex: 1 0 80%;
     padding: 20px;
 }
 .bezopasnost__terorizm {
@@ -10,11 +10,50 @@
 .bezopasnost__terorizm a {
     display: block;
     text-align: center;
+    font-size: 16px;
+    margin: 10px 0 20px 0;
+}
+.bezopasnost__terorizm p {
+    font-size: 17px;
     margin: 10px 0;
 }
 .bezopasnost__terorizm img {
     width: 80%;
 }
+.book {
+    max-width: 200px;
+}
 .bezopasnost__title {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+}
+
+ul li {
+    list-style-type: disc;
+    font-size: 15px;
+}
+
+/* Профилактика травм*/
+.profilaktika-travm {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+.bezopasnost__subtitle {
+    font-size: 16px;
+    margin: 0 0 20px 0;
+}
+
+/* Информация Родителям */
+.roditelyam {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+.roditelyam li {
     font-size: 18px;
+    margin: 0 0 10px 0;
+}
+.roditelyam img {
+    width: 80%;
 }

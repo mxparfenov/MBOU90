@@ -4,7 +4,7 @@
     margin: 0 0 30px 0;
 }
 .subsection {
-    flex: 1 1 30%;
+    flex: 1 1 20%;
 }
 .subsection__item {
     min-height: 50px;
@@ -17,9 +17,13 @@
 .subsection__item:hover {
     background-color: #a840ed86;
 }
+.subsection button {
+    display: block;
+    width: 100%;
+}
 
 .methodich-obedinen {
-    flex: 1 1 70%;
+    flex: 1 1 80%;
     padding: 15px;
 }
 .methodich__title {
