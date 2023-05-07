@@ -100,3 +100,96 @@ ul li {
 .helpful-video iframe {
     margin: 10px 0 20px 0;
 }
+
+/* Гражданская оборона */
+.grazdanskaya-oborona {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+.grazdanskaya-oborona h4 {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0 0 0;
+}
+.gb__links {
+    margin: 10px 0;
+    font-size: 16px;
+}
+.gb__links p {
+    margin: 10px 0;
+}
+.gb__classes {
+    font-size: 16px;
+    text-align: center;
+}
+.gb__classes p {
+    margin: 0 0 10px 0;
+}
+.gb__pam {
+    font-size: 16px;
+}
+.gb__pam p{
+    margin: 10px 0;
+}
+.gb__chs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+    margin: 10px 0 30px 0;
+}
+.gb__chs li {
+    margin: 10px 0 0 0;
+}
+.gb__chs ul {
+    margin: 0 0 0 20px;
+}
+.gb__sved {
+    font-size: 16px;
+}
+.gb__sved p {
+    margin: 0 0 10px 0;
+}
+.gb__sved li {
+    margin: 0 0 5px 30px;
+    font-size: 16px;
+}
+.gb__bomb {
+    font-size: 16px;
+    margin: 20px 0;
+}
+.gb__notice {
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+.gb__notice h4 {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+} 
+.grazdanskaya-oborona img {
+    width: 70%;
+    margin: 20px 0;
+}
+
+/* Мероприятия */
+.events {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    line-height: 20px;
+}
+.events h3 {
+    color: red;
+}
+.events img {
+    margin: 10px 0 0 0;
+    width: 60%;
+}
