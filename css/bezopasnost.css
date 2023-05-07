@@ -26,6 +26,7 @@
 .bezopasnost__title {
     font-size: 24px;
     margin: 0 0 20px 0;
+    text-align: center;
 }
 
 ul li {
@@ -56,4 +57,46 @@ ul li {
 }
 .roditelyam img {
     width: 80%;
+}
+
+/* Медицинская страничка */
+.med-page {
+    display: none;
+    flex-direction: column;
+}
+.med-page img {
+    width: 60%;
+}
+.med-page p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.med-page li {
+    font-size: 16px;
+    margin: 5px 0 5px 25px;
+}
+.med-page span {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.med__links li {
+    font-size: 18px;
+    margin: 10px 0 10px 30px;
+}
+.med-page h4 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+/* Полезные видео */
+.helpful-video {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+.helpful-video iframe {
+    margin: 10px 0 20px 0;
 }
