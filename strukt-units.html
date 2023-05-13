@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>МБОУ "Школа №90 г.Донецка" - Главная страница</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="css/virtual-cab.css" type="text/css">
+    <link rel="stylesheet" href="css/strukt-units.css" type="text/css">
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,6 +27,15 @@
         <a class="burger__link" href="">ФГОС</a>
         <a class="burger__link" href="">Аттестация 2023</a>
         <a class="burger__link" href="">Актуальная информация минпросвещения России</a>
+    </div>
+
+    <div class="subsection__menu__item">
+        <div class="menu__exit">
+            <img src="img/icon_8.png" alt="">
+        </div>
+        <button class="menu__link choir-menu">Хор</button>
+        <button class="menu__link theater-menu">Театр</button>
+        <button class="menu__link sportClub-menu">Спортивный клуб</button>
     </div>
 
     <div class="wrapper">
@@ -72,33 +81,52 @@
         
             <div class="content">
                 <div class="subsection">
-                    <a href=""><div class="subsection__item">ШМО Начальных классов</div></a>
-                    <a href=""><div class="subsection__item">ШМО Математики Информатики Физики</div></a>
-                    <a href=""><div class="subsection__item">ШМО Английского языка</div></a>
-                    <a href=""><div class="subsection__item">Кафедра словестности</div></a>
-                    <a href=""><div class="subsection__item">ШМО Физкультуры</div></a>
-                    <a href=""><div class="subsection__item">ШМО Естественных наук</div></a>
-                    <a href=""><div class="subsection__item">ШМО Психологической службы</div></a>
-                    <a href=""><div class="subsection__item">ШМО Эстетического цикла</div></a>
-                    <a href=""><div class="subsection__item">ШМО Классных руководителей</div></a>
+                    <button><div class="subsection__item choirBut">Хор</div></button>
+                    <button><div class="subsection__item theaterBut">Театр</div></button>
+                    <button><div class="subsection__item sportClubBut">Спортивный клуб</div></button>
                 </div>
-                <div class="methodich-obedinen">
-                    <div class="methodich__title">Название секции</div>
-                    <div class="methodich__items">
-                        <div class="methodich__item">
-                            <div class="item__image">
-                                <img src="img/news_image.jpg" alt="">
-                            </div>
-                            <div class="item__text">
-                                <div class="item__title">Пример новости</div>
-                                <div class="item__date">03.05.2023</div>
-                                <div class="item__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quae eveniet repudiandae<br> ullam explicabo molestiae eius quisquam, corporis perspiciatis quas sint cupiditate aliquid obcaecati est, consequuntur velit debitis quaerat voluptas?</div>
-                            </div>
-                        </div>
+                <div class="subsection__menu">
+                    <div class="subsection__menu__title">Разделы</div>
+                    <div class="subsection__menu__button">
+                        <img src="img/icon_9.png" alt="">
+                    </div>
+                </div>
+                <div class="strukt-units">
+<!-- Раздел Хор -->
+                    <div class="choir">
+                        <h3 class="strukt__title">Хор</h3>
+                        <img src="img/choir_image.jpg" alt="">
+                        <a class="strukt__links" href="https://disk.yandex.ru/i/DvHkbjJQXnqq_A">Положение</a>
+                        <a class="strukt__links" href="https://disk.yandex.ru/i/_pCw9oKhPW8I9w">Рабочая программа</a>
+                        <a class="strukt__links" href="https://disk.yandex.ru/i/GmlP87xdJFU0Hg">График работы</a>
+                        <a class="strukt__links" href="https://disk.yandex.ru/i/Zi2PkWYu7xxidw">Приказ</a>
+                        <a class="strukt__links" href="https://disk.yandex.ru/i/8l8mJdO9ZIWHpg">Должностная инструкция</a>
+                        <a class="strukt__links" href="https://disk.yandex.ru/i/7iLmUlH-m57vZQ">План</a>
+                        <a class="strukt__links" href="https://disk.yandex.ru/i/6plYOVz9Yt9Mgw">Состав</a>
+                    </div>
+<!-- Раздел Театр -->
+                    <div class="theater">
+                        <h3 class="strukt__title">Театр</h3>
+                        <img src="img/teatr.png" alt="">
+                        <img src="img/teatr_2.jpg" alt="">
+                        <a class="strukt__links" href="https://cloud.mail.ru/public/CuhR/C1Qg8Rozf">Положение</a>
+                        <a class="strukt__links" href="https://cloud.mail.ru/public/oR8Q/4jG8csqex">Рабочая программа</a>
+                        <a class="strukt__links" href="https://cloud.mail.ru/public/DpAE/9dUiNMR1a">График работы</a>
+                        <a class="strukt__links" href="https://cloud.mail.ru/public/awpd/mPNaJqb8H">Приказ</a>
+                    </div>
+<!-- Раздел Спортивный клуб -->
+                    <div class="sportClub">
+                        <h3 class="strukt__title">Спортивный клуб</h3>
+                        <img src="img/sportClub.png" alt="">
+                        <a class="strukt__links" href="">Должностная инструкция</a>
+                        <a class="strukt__links" href="">Календарный план работы</a>
+                        <a class="strukt__links" href="">План воспитательной работы</a>
+                        <a class="strukt__links" href="">План спорт-мас. мероприятий</a>
+                        <a class="strukt__links" href="">Приказ, положение, состав</a>
+                        <a class="strukt__links" href="">Расписание занятий</a>
                     </div>
                 </div>
             </div>
-
         </div>
 
         <footer class="footer">
@@ -128,5 +156,6 @@
         </footer>
     </div>
     <script src="JS/burgerMenu.js"></script>
+    <script src="JS/strukt-units.js"></script>
 </body>
 </html>

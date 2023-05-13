@@ -1,37 +1,13 @@
 .bezopasnost {
-    flex: 1 0 80%;
+    flex: 1 1 80%;
     padding: 20px;
 }
-
-.subsection__menu__item {
-    display: none;
-    position: fixed;
-	min-width: 100vw;
-	min-height: 100vh;
-	background-color: #a840ed;
-	z-index: 999;
-    flex-direction: column;
-	justify-content: center;
-	align-items: center;
+.bezopasnost a {
+    color: #8d0ae4;
 }
-.subsection__menu__item button {
-    display: block;
-    color: white;
-    margin: 0 15px 40px 15px;
-    font-size: 18px;
-    font-weight: 500;
-    background-color: rgba(0,0,0,0);
+.bezopasnost a:hover {
+    text-decoration: underline;
 }
-.menu__exit {
-    position: absolute; 
-	right: 20px;
-	top: 20px;
-	max-width: 40px;
-}
-.menu__exit img {
-    width: 100%;
-}
-
 .bezopasnost__terorizm {
     display: flex;
     flex-direction: column;
