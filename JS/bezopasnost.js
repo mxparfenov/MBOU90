@@ -93,7 +93,7 @@ MenuExit.addEventListener('click', function(){
 
 function Exitmenu(){
     document.querySelector('.subsection__menu__item').style.display = 'none';
-}
+};
 
 terrorizmButtonMenu = document.querySelector('.terrorizm-menu');
 profilaktikaButtonMenu = document.querySelector('.profilaktika-menu');

@@ -1,0 +1,36 @@
+.education {
+    flex: 1 1 80%;
+    padding: 20px;
+}
+.education a {
+    color: #8d0ae4;
+}
+.education a:hover {
+    text-decoration: underline;
+    font-weight: 500;
+}
+.education__title {
+    font-size: 20px;
+}
+
+.psicho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.psicho li {
+    list-style-type: disc;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+.psicho ul {
+    margin: 20px 0;
+}
+.psicho img {
+    width: 70%;
+}
+.psicho h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
