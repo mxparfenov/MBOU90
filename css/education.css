@@ -11,10 +11,12 @@
 }
 .education__title {
     font-size: 20px;
+    margin: 0 0 20px 0;
 }
 
+/* Раздел Психолог и я */
 .psicho {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     padding: 20px;
@@ -33,4 +35,117 @@
 .psicho h4 {
     font-size: 18px;
     font-weight: bold;
+}
+/* Раздел Воспитательная работа */
+.vospit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.vospit img {
+    width: 70%;
+    margin: 15px 0;
+}
+.vospit h4 {
+    text-align: center;
+    font-size: 18px;
+    margin: 25px 0;
+}
+.vospit__table {
+    margin: 15px 0;
+}
+.vospit__table td {
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 16px;
+}
+.vospit p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.image__links {
+    width: 70%;
+}
+.image__links img {
+    width: 100%;
+}
+
+/* Раздел Кружки и секции */
+.hobby-group {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.hobby-group img {
+    width: 70%;
+    margin: 20px 0;
+}
+.hobby-group p {
+    font-size: 16px;
+}
+.hobby-group ol {
+    font-size: 16px;
+}
+.hobby-group li {
+    margin: 10px 0;
+}
+
+/* Раздел Самоуправление */
+.self-management {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.self-management h4 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.self-management h5 {
+    font-size: 17px;
+    margin: 10px 0;
+}
+.self-management p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+.self-management ol {
+    margin: 5px 0 5px 20px;
+    font-size: 16px;
+}
+.self-management iframe {
+    width: 80%;
+    height: 400px;
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .self-management iframe {
+        height: 200px;
+    }
+}
+
+/* Раздел Движение первых */
+.movement {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.movement p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+.movement__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.movement__links a {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 0;
 }
