@@ -1,0 +1,33 @@
+.minpros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.minpros__title {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+.minpros img {
+    width: 30%;
+    margin: 10px 0 20px 0;
+}
+.minpros p {
+    align-self: flex-start;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    line-height: 25px;
+}
+.minpros p a {
+    margin: 0 0 0 20px;
+    color: #8d0ae4;
+}
+.minpros p a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .minpros img {
+        display: none;
+    }
+}
