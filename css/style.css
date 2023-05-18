@@ -175,7 +175,6 @@ html, body {
 	width: 100%;
 }
 
-
 @media (max-width: 768px) {
 	.burger {
 		display: flex;

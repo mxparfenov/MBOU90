@@ -1,0 +1,60 @@
+.attestation {
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.attestation a {
+    color: #8d0ae4;
+}
+.attestation a:hover {
+    text-decoration: underline;
+}
+.attestation__title {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+.attestation p {
+    align-self: flex-start;
+    font-size: 16px;
+    margin: 0 0 10px 10px;
+    font-weight: 500;
+}
+.attestation__teachers {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.teachers__item {
+    display: flex;
+    flex: 1 1 50%;
+    margin: 0 0 20px 0;
+}
+.item__image {
+    flex: 0 1 30%;
+}
+.item__image img {
+    width: 100%;
+}
+.item__text {
+    flex: 1 1 70%;
+    font-size: 16px;
+}
+.item__text p {
+    margin: 0 0 30px 20px;
+    font-size: 20px;
+}
+.item__title {
+    font-size: 17px;
+}
+
+@media (max-width: 768px) {
+    .attestation__teachers {
+        flex-direction: column;
+    }
+    .item__text p {
+        margin: 0 0 10px 20px;
+        font-size: 16px;
+    }
+}
